@@ -1,7 +1,7 @@
 ### random creditcard generator
 
 #### Luhn algorithm
-Base: `Luhn algorithm` is in widely used today; it is not intended to be a cryptographically secure hash function; it was designed to protect against accidental errors, not malicious attacks.
+Base: `Luhn algorithm` is in widely used today; it is not actually intended to be a cryptographically secure hash function; it was designed to protect against accidental errors, not malicious attacks.
 
 ### generator
 This code can generate a random 16-digit credit card number following the `Luhn algorithm` for validity, a 3-digit `CVV`*, and a random valid expiry date at least two years in the future.
